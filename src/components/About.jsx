@@ -48,7 +48,7 @@ const About = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et voluptate tenetur, perferendis adipisci asperiores tempora. Aspernatur quis accusantium quas modi. Odio provident deleniti fugit ullam, sint magni qui similique!
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex justify-center flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
