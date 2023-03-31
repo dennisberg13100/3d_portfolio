@@ -125,15 +125,15 @@ import {
     },
     {
       title: "BeePack",
-      company_name: "Desenvolvedor e fundador",
+      company_name: "Desenvolvedor e Fundador",
       icon: beepack,
       iconBg: "#fff",
       date: "Jan 2021 - atualidade",
       points: [
         "Desenvolvimento e manutençao do site de e-comerce.",
         "Gerenciamento das redes sociais.",
-        "Desing de logos, layouts, postagens e videos.",
-        "integração com meios de pagamento, de logistica e market places .",
+        "Design de logos, layouts, postagens e videos.",
+        "Integração com meio de pagamento, logistica e market places .",
       ],
     },
     {
@@ -143,12 +143,11 @@ import {
       iconBg: "#fff",
       date: "Jan 2020 - Jun 2020",
       points: [
-        "Um entendimento amplo e robusto de ciência da computação e programação.",
-        "Como pensar algorítmicamente e solucionar problemas de programação de forma eficiente.",
-        "Conceitos como abstração, algoritmos, estruturas de dados, encapsulamento, gestão de recursos, segurança, engenharia de software e desenvolvimento web.",
-        "Familiaridade com várias linguagens, incluindo C, Python, SQL e JavaScript, além de CSS e HTML.",
-        "Como se engajar com uma comunidade vibrante de alunos com mentalidades semelhantes em todos os níveis de experiência",
-        "Como desenvolver e apresentar um projeto final de programação para seus colegas",
+        "Obtive um entendimento amplo e robusto de ciência da computação e programação.",
+        "Aprendi a pensar algorítmicamente e solucionar problemas de programação de forma eficiente.",
+        "Aprendi conceitos como abstração, algoritmos, estruturas de dados, encapsulamento, gestão de recursos, segurança, engenharia de software e desenvolvimento web.",
+        "Conheci várias linguagens, incluindo C, Python, SQL e JavaScript, além de CSS e HTML.",
+        "Desenvolvi e apresentei o projeto final de programação para meus colegas.",
       ],
     },
     {
@@ -158,19 +157,19 @@ import {
       iconBg: "#fff",
       date: "Mai 2020 - Jun-2020",
       points: [
-        "Desenvolvimento web responsivo",
-        "Algoritmos e estrutura de dados em JavaScript"
+        "Desenvolvimento web responsivo.",
+        "Algoritmos e estrutura de dados em JavaScript."
       ],
     },
     {
-      title: "PHP do zero ao Profissional",
+      title: "PHP do Zero ao Profissional",
       company_name: "Bonieky Lacerda",
       icon: php_logocompleta,
       iconBg: "#fff",
       date: "jun 2020 - jun 2021",
       points: [
-        "HTML5, CSS3, JavaScript",
-        "PHP iniciante, intermediário e avançado",
+        "HTML5, CSS3, JavaScript.",
+        "PHP iniciante, intermediário e avançado.",
         "Fundamento da programação.",
         "Banco de dados.",
         "Arquitetura da informação.",
@@ -213,11 +212,11 @@ import {
         "Este site foi desenvolvido com objetivo de cumprir com as atividades da matéria de Desenvolvimento Web Cliente do terceiro semestre do curso de Sistemas Para Internet.",
       tags: [
         {
-          name: "HTML5",
+          name: "HTML 5",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS3",
+          name: "CSS 3",
           color: "green-text-gradient",
         },
         {
@@ -234,11 +233,11 @@ import {
         "Neste projeto eu realizo o desfia do estagiário do canal DevMedia. Para o desafio foi disponibilizado quatro desenhos do Layout em diferentes tamanhos de tela.",
       tags: [
         {
-          name: "HTML5",
+          name: "HTML 5",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS3",
+          name: "CSS 3",
           color: "green-text-gradient",
         }
       ],
@@ -251,11 +250,11 @@ import {
         "Um site simples para apresentar os trabalho de um marceneiro, com uma apresentação, fotos de seus trabalhos e um formulário paar entrar em contato.",
       tags: [
         {
-          name: "HTML5",
+          name: "HTML 5",
           color: "blue-text-gradient",
         },
         {
-          name: "sCSS#",
+          name: "CSS 3",
           color: "green-text-gradient",
         },
       ],

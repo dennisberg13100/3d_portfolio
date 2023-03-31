@@ -44,12 +44,10 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className={"mt-4 text-secondary text-[17px] max-w-3-xl leading-[30px]"}  
       >
-        <p className={"mb-3"}>Olá! Meu nome é Dennis, e sou estudante de Sistemas Para Internet. Estou buscando uma oportunidade de estágio ou meu primeiro emprego na área de desenvolvimento web.</p>
+        <p className={"mb-3"}>Sou estudante de Sistemas Para Internet. Estou buscando uma oportunidade de estágio ou meu primeiro emprego na área de desenvolvimento web.</p>
 
         <p className={"mb-3"}>Tenho realizado diversos cursos na área de desenvolvimento de sistemas, incluindo HTML, CSS, PHP, React e Node.js. Atualmente, tenho focado meus estudos em Java, com o objetivo de aprender a trabalhar com o framework Spring - uma ferramenta incrível para o desenvolvimento de microserviços.</p>
-
-        <p className={"mb-3"}>No entanto, caso sua empresa trabalhe com outras tecnologias, estou aberto a me adaptar. O ramo da tecnologia é extremamente dinâmico e sei que, cedo ou tarde, teremos que nos adaptar a novas linguagens e ferramentas de qualquer forma.</p>
-
+        
         <p className={"mb-3"}>Em meu portfólio, você encontrará alguns dos meus trabalhos e projetos desenvolvidos até o momento. Espero que possamos trabalhar juntos em breve!</p>
       </motion.p>
 

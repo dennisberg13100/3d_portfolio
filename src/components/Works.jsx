@@ -51,7 +51,7 @@ const Works = () => {
   return (
     <>
        <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Meus trabalhos...</p>
+        <p className={styles.sectionSubText}>Meus trabalhos</p>
         <h2 className={styles.sectionHeadText}>Projetos.</h2>
       </motion.div>
 
@@ -60,8 +60,7 @@ const Works = () => {
           variants={fadeIn("","",0.1, 1)}
           className="mt-3 text-secondary text[17px] max-w-3xl leading-[30px]"
         >
-          Durante o curos de Sistemas Para internet somos deafiados a criar vários projetos, com objetivo de por em prática todo o conhecimento adquirido durante as aulas. ALguns deste projeto podem ser vistos nos cards abaixo. Caso tenha interesse você pode clicar nos icones do github para acessar o código fonte destes projetos.
-        </motion.p>
+        Durante o curso de Sistemas para Internet, somos desafiados a criar vários projetos com o objetivo de colocar em prática todo o conhecimento adquirido durante as aulas. Alguns desses projetos podem ser vistos nos cards abaixo. Caso tenha interesse, você pode clicar nos ícones do GitHub para acessar o código fonte desses projetos.        </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
