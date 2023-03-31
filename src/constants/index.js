@@ -4,57 +4,56 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    java,
+    php,
+    wordpress,
+    uam,
+    freecodecamp,
+    php_logocompleta,
+    beepack,
+    cs50,
+    petshop,
+    agenciadeviagens,
+    carpentry,
+    mysql,
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Sobre",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Trabalho",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contato",
     },
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Desenvolvedor Front-end",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Desenvolvedor Back-end",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Desenvolvedor Mobile",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Desenvolvedor WordPress",
       icon: creator,
     },
   ];
@@ -73,16 +72,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,78 +84,97 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "mySQL",
+      icon: mysql,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Php",
+      icon: php,
+    },
+    {
+      name: "WordPress",
+      icon: wordpress,
+    },
+    {
+      name: "java",
+      icon: java
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Sistemas Para Internet",
+      company_name: "Anhebi Morumbi",
+      icon: uam,
+      iconBg: "#fff",
+      date: "Jan 2022 - Jun 2024 (cursando)",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desenvolvimento front-end, web e mobile.",
+        "Lógica de programação, Orientação a objetos e Engenharia de Software.",
+        "Banco de dados e desenvolvimento Back-end.",
+        "Rede de computadores.",
+        "Estatística e Data Science.",
+        "Gestão de conteúdo e administração web.",
+        "Comércio eletrônico.", 
+        "Projetos em educação a distância."    
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "BeePack",
+      company_name: "Desenvolvedor e fundador",
+      icon: beepack,
+      iconBg: "#fff",
+      date: "Jan 2021 - atualidade",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desenvolvimento e manutençao do site de e-comerce.",
+        "Gerenciamento das redes sociais.",
+        "Desing de logos, layouts, postagens e videos.",
+        "integração com meios de pagamento, de logistica e market places .",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Introdução a ciência da computação -Harvard",
+      company_name: "David J. Malan",
+      icon: cs50,
+      iconBg: "#fff",
+      date: "Jan 2020 - Jun 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Um entendimento amplo e robusto de ciência da computação e programação.",
+        "Como pensar algorítmicamente e solucionar problemas de programação de forma eficiente.",
+        "Conceitos como abstração, algoritmos, estruturas de dados, encapsulamento, gestão de recursos, segurança, engenharia de software e desenvolvimento web.",
+        "Familiaridade com várias linguagens, incluindo C, Python, SQL e JavaScript, além de CSS e HTML.",
+        "Como se engajar com uma comunidade vibrante de alunos com mentalidades semelhantes em todos os níveis de experiência",
+        "Como desenvolver e apresentar um projeto final de programação para seus colegas",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "freeCodeCamp",
+      company_name: "Quincy Larson",
+      icon: freecodecamp,
+      iconBg: "#fff",
+      date: "Mai 2020 - Jun-2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desenvolvimento web responsivo",
+        "Algoritmos e estrutura de dados em JavaScript"
+      ],
+    },
+    {
+      title: "PHP do zero ao Profissional",
+      company_name: "Bonieky Lacerda",
+      icon: php_logocompleta,
+      iconBg: "#fff",
+      date: "jun 2020 - jun 2021",
+      points: [
+        "HTML5, CSS3, JavaScript",
+        "PHP iniciante, intermediário e avançado",
+        "Fundamento da programação.",
+        "Banco de dados.",
+        "Arquitetura da informação.",
+        "Desenvolvimento ágil.",
       ],
     },
   ];
@@ -198,67 +208,59 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pet Shop",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Este site foi desenvolvido com objetivo de cumprir com as atividades da matéria de Desenvolvimento Web Cliente do terceiro semestre do curso de Sistemas Para Internet.",
       tags: [
         {
-          name: "react",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS3",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: petshop,
+      source_code_link: "https://github.com/dennisberg13100/petshop_site_bootstrap.git",
     },
     {
-      name: "Job IT",
+      name: "Agência de Viagens",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Neste projeto eu realizo o desfia do estagiário do canal DevMedia. Para o desafio foi disponibilizado quatro desenhos do Layout em diferentes tamanhos de tela.",
       tags: [
         {
-          name: "react",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS3",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: agenciadeviagens,
+      source_code_link: "https://github.com/dennisberg13100/desafio_do_estagiario.git",
     },
     {
-      name: "Trip Guide",
+      name: "Site de Marcenaria",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Um site simples para apresentar os trabalho de um marceneiro, com uma apresentação, fotos de seus trabalhos e um formulário paar entrar em contato.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "sCSS#",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: carpentry,
+      source_code_link: "https://github.com/dennisberg13100/design_para_web_atividade2.git",
     },
   ];
   

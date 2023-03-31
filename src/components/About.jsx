@@ -36,19 +36,24 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introdução</p>
+        <h2 className={styles.sectionHeadText}>Visão Geral.</h2>
       </motion.div> 
 
       <motion.p 
         variants={fadeIn("","",0.1,1)}
         className={"mt-4 text-secondary text-[17px] max-w-3-xl leading-[30px]"}  
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam nobis ad expedita aperiam accusantium? Quibusdam dolorem perferendis, placeat saepe dolorum totam similique quos, sequi, eligendi possimus sunt alias esse!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et voluptate tenetur, perferendis adipisci asperiores tempora. Aspernatur quis accusantium quas modi. Odio provident deleniti fugit ullam, sint magni qui similique!
+        <p className={"mb-3"}>Olá! Meu nome é Dennis, e sou estudante de Sistemas Para Internet. Estou buscando uma oportunidade de estágio ou meu primeiro emprego na área de desenvolvimento web.</p>
+
+        <p className={"mb-3"}>Tenho realizado diversos cursos na área de desenvolvimento de sistemas, incluindo HTML, CSS, PHP, React e Node.js. Atualmente, tenho focado meus estudos em Java, com o objetivo de aprender a trabalhar com o framework Spring - uma ferramenta incrível para o desenvolvimento de microserviços.</p>
+
+        <p className={"mb-3"}>No entanto, caso sua empresa trabalhe com outras tecnologias, estou aberto a me adaptar. O ramo da tecnologia é extremamente dinâmico e sei que, cedo ou tarde, teremos que nos adaptar a novas linguagens e ferramentas de qualquer forma.</p>
+
+        <p className={"mb-3"}>Em meu portfólio, você encontrará alguns dos meus trabalhos e projetos desenvolvidos até o momento. Espero que possamos trabalhar juntos em breve!</p>
       </motion.p>
 
-      <div className="mt-20 flex justify-center flex-wrap gap-10">
+      <div className="mt-[60px] flex justify-center flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

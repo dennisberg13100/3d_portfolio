@@ -60,7 +60,7 @@ const Works = () => {
           variants={fadeIn("","",0.1, 1)}
           className="mt-3 text-secondary text[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quam culpa odit consectetur non adipisci doloremque mollitia consequatur, iusto sint! Placeat, obcaecati eaque fugiat eum deleniti iusto aliquam facilis minima?
+          Durante o curos de Sistemas Para internet somos deafiados a criar vários projetos, com objetivo de por em prática todo o conhecimento adquirido durante as aulas. ALguns deste projeto podem ser vistos nos cards abaixo. Caso tenha interesse você pode clicar nos icones do github para acessar o código fonte destes projetos.
         </motion.p>
       </div>
 
