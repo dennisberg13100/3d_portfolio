@@ -1,9 +1,11 @@
 import { motion } from "framer-motion"
+import ReadMore from '../components/ReadMore'
 
 import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
 import { fadeIn, textVariant } from '../utils/motion'
 import { testimonials } from '../constants'
+ 
 
 const FeedbackCard = ({ index, testimonial, name, designation, company, image}) => (
   <motion.div
@@ -12,20 +14,22 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image}) 
   >
     <p className="text-white font-black text-[48px]">"</p>
     <div className="mt-1">
-      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+      <ReadMore>
+        {testimonial}
+      </ReadMore>
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
           <p className="text-white font-medium text[16px]">
             <span className="blue-text-gradient">@</span> {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
+            {designation} da {company}
           </p>
         </div>
         <img 
           src={image} 
           alt={`feed-bak by-${name}`}
-          className="w-10 h-10 rounded-full" 
+          className="w-12 h-12 rounded-full" 
         />
       </div>
     </div>   

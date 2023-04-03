@@ -22,6 +22,8 @@ import {
     agenciadeviagens,
     carpentry,
     mysql,
+    pm,
+    am,
   } from "../assets";
   
   export const navLinks = [
@@ -181,27 +183,20 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+         ["O Dennis é um profissional muito habilidoso, entregou meu projeto antes do prazo combinado, com muito capricho e organização. Estes detalhes fizeram toda a diferença para meu cliente final! Muito obrigado"],
+      name: "Paulo Marcelo",
+      designation: "Supervisor de Marketing",
+      company: "Mottanet",
+      image: pm,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        ["Este programador full stack é absolutamente excepcional! Desde o início do projeto, demonstrou habilidades técnicas impressionantes, domínio completo das tecnologias front-end e back-end, e um compromisso sério com a qualidade do trabalho. Sempre esteve disponível para discutir ideias, propor soluções inovadoras e adaptar-se às mudanças de requisitos, mantendo-se sempre profissional e paciente.", 
+        "Acapacidade de resolver problemas complexos de forma rápida e eficiente é uma de suas principais qualidades, garantindo a entrega do projeto no prazo e com qualidade excepcional. Além disso, sua habilidade em trabalhar em equipe e se comunicar de forma clara e eficaz facilitou a colaboração e o entendimento entre todos os envolvidos."],
+      name: "Alan Moraes",
+      designation: "Fundador proprietário",
+      company: "Haylou Brasil",
+      image: am,
     },
   ];
   

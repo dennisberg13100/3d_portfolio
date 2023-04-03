@@ -40,7 +40,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Visão Geral.</h2>
       </motion.div> 
 
-      <motion.p 
+      <motion.div 
         variants={fadeIn("","",0.1,1)}
         className={"mt-4 text-secondary text-[17px] max-w-3-xl leading-[30px]"}  
       >
@@ -49,7 +49,7 @@ const About = () => {
         <p className={"mb-3"}>Tenho realizado diversos cursos na área de desenvolvimento de sistemas, incluindo HTML, CSS, PHP, React e Node.js. Atualmente, tenho focado meus estudos em Java, com o objetivo de aprender a trabalhar com o framework Spring - uma ferramenta incrível para o desenvolvimento de microserviços.</p>
         
         <p className={"mb-3"}>Em meu portfólio, você encontrará alguns dos meus trabalhos e projetos desenvolvidos até o momento. Espero que possamos trabalhar juntos em breve!</p>
-      </motion.p>
+      </motion.div>
 
       <div className="mt-[60px] flex justify-center flex-wrap gap-10">
         {services.map((service, index) => (

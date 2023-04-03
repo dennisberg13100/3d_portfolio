@@ -34,6 +34,9 @@ import petshop from "./petshop.png";
 import agenciadeviagens from "./agenciadeviagens.png";
 import carpentry from "./carpentry.png";
 
+import pm from "./pauloMarcelo.jpg"
+import am from "./alanMoraes.jpeg"
+
 export {
   logo,
   backend,
@@ -67,4 +70,6 @@ export {
   petshop,
   agenciadeviagens,
   carpentry,
+  pm,
+  am
 };
