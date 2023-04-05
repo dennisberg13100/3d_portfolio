@@ -6,6 +6,7 @@ import {
     javascript,
     html,
     css,
+    bootstrap,
     reactjs,
     tailwind,
     nodejs,
@@ -72,6 +73,10 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "React JS",

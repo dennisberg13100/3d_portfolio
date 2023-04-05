@@ -13,6 +13,21 @@
   color-scheme: dark;
 }
 
+.sphere {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.sphere-shadow {
+  box-shadow:
+      0 1px 1px hsl(45deg 100% 100% / 0.075),
+      0 2px 2px hsl(45deg 1000% 100% / 0.075),
+      0 4px 4px hsl(45deg 100% 100% / 0.075),
+      0 8px 8px hsl(45deg 100% 100% / 0.075),
+      0 16px 16px hsl(45deg 100% 100% / 0.075),
+      inset 25px 25px 40px rgba(0,0,0,.4);
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

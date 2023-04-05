@@ -1,7 +1,14 @@
+import { useState, useEffect } from "react"
 import { BrowserRouter } from "react-router-dom"
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works} from './components'
+import TechMobile from "./components/TechMobile";
 
 const App  = () => {
+  const [ isMobile, setIsMobile ] = useState(true);
+
+  useEffect(()=> {
+    setIsMobile(window.innerWidth <= 500)
+  }, [])
   return (
    <BrowserRouter>
     <div className="relative z-0 bg-primary">
@@ -11,7 +18,7 @@ const App  = () => {
       </div>
       <About />
       <Experience />
-      {/* <Tech /> */}
+      {isMobile ? <TechMobile /> : <Tech /> }
       <Works />
       <Feedbacks />
       <div className="realtive z-0">
