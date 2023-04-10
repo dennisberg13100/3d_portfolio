@@ -226,6 +226,8 @@ import {
       ],
       image: petshop,
       source_code_link: "https://github.com/dennisberg13100/petshop_site_bootstrap.git",
+      web_link: "https://dennisberg13100.github.io/petshop_site_bootstrap/",
+
     },
     {
       name: "Agência de Viagens",
@@ -243,6 +245,7 @@ import {
       ],
       image: agenciadeviagens,
       source_code_link: "https://github.com/dennisberg13100/desafio_do_estagiario.git",
+      web_link: "https://dennisberg13100.github.io/desafio_do_estagiario/",
     },
     {
       name: "Site de Marcenaria",
@@ -260,6 +263,7 @@ import {
       ],
       image: carpentry,
       source_code_link: "https://github.com/dennisberg13100/design_para_web_atividade2.git",
+      web_link: "https://dennisberg13100.github.io/design_para_web_atividade2/",
     },
   ];
   
